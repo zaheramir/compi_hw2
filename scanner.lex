@@ -31,9 +31,8 @@ continue                            return CONTINUE;
 (\))                                return RPAREN;
 (\{)                                return LBRACE;
 (\})                                return RBRACE;
-
 (\<|\>|\<=|\>=)                     return RELOP;
-(\==|\!=)                           return RELOP_EQ;
+(\==|\!=)                           return RELOP_V2;
 (=)                                 return ASSIGN;
 (\+|\-)                             return BINOP_V2;
 (\*|\/)                             return BINOP;
